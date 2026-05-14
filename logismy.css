@@ -2,3 +2,19 @@ body {
    color: var(--kategory-white);
    background: var(--kategory-black);
 }
+
+.lambda-nav {
+   display: inline-block;
+   color: var(--kategory-white);
+   font-size: clamp(4rem, 12vw, 8rem);
+   line-height: 1;
+   text-decoration: none;
+   text-shadow: 0 0 1rem rgba(227, 6, 19, 0.44);
+   transition: opacity 0.2s, transform 0.2s;
+}
+
+.lambda-nav:hover {
+   color: var(--kategory-white);
+   opacity: 0.8;
+   transform: scale(1.05);
+}
